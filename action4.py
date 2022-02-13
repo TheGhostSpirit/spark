@@ -12,8 +12,8 @@ full_df = spark.read.format("csv") \
 
 # Afficher dans la console les 10 mots qui reviennent le plus dans les messages de
 # commit sur l’ensemble des projets.
-full_df.select("repo", "message")\
-    .groupby("message")\
-    .agg(count("message").alias("nbOccurrences")) \
+full_df.select("repo", explode(split(col("message"), '[ ]')).alias('words'))\
+    .groupby("words")\
+    .agg(count("words").alias("nbOccurrences")) \
     .orderBy("nbOccurrences", ascending=False) \
     .show(n=100)
