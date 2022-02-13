@@ -1,0 +1,23 @@
+commit,author,date,message,repo
+692,Mortada Mehyar,Sun Sep 12 12:27:07 2004 +0800,DOC: add example for plotting asymmetrical error bars (#41035),apache/spark
+855,Patrick Hoefler,Mon May 23 01:23:07 2005 +0200,Add keyword sort to pivot_table (#40954),apache/spark
+eaa,attack68,Sat Jun 25 01:21:22 2005 +0200,ENH: `Styler.highlight_quantile` method (#40926),pandas-dev/pandas
+aab,attack68,Wed Apr 21 01:01:03 2021 +0200,ENH: add `decimal` and `thousands` args to `Styler.format()` (#40596),apache/spark
+9c4,Simon Hawkins,Sat Jul 27 23:58:18 2019 +0100,[ArrowStringArray] Use utf8_upper and utf8_lower functions from Apache Arrow (#41056),pandas-dev/pandas
+c14,jbrockmendel,Tue Apr 20 15:48:33 2021 -0700,PERF: remove unused out kwd from take functions (#40934),apache/spark
+a77,Patrick Hoefler,Sat Feb 03 00:47:53 2007 +0200,Deprecate joining over a different number of levels (#40993),apache/spark
+f65,Patrick Hoefler,Sat Nov 29 00:47:29 2014 +0200,Deprecate suffixes in merge producing duplicate columns (#40991),apache/spark
+059,jbrockmendel,Tue Apr 20 06:12:03 2021 -0700,REF: remove no-op casting in groupby.generic (#41048),pandas-dev/pandas
+770,Matthew Zeitlin,Tue Apr 20 08:52:12 2021 -0400,BUG: isna not returning copy for MaskedArray (#41020),apache/spark
+ccb,Bharat Raghunathan,Tue Apr 20 09:56:26 2021 +0530,"DOC: Improve describe() documentation (#41012),apache/spark
+69d,jbrockmendel,Mon Apr 19 09:23:24 2021 -0700,PERF: put BlockManager constructor in cython (#40842),pandas-dev/pandas
+552,jbrockmendel,Mon Apr 19 07:10:34 2021 -0700,CLN: remove CategoricalIndex.unique (#40995),apache/spark
+69f,Patrick Hoefler,Mon Apr 19 16:02:52 2021 +0200,Regression modifying obj with all false indexer (#40999),apache/spark
+bce,jbrockmendel,Mon Apr 19 07:01:50 2021 -0700,REF: remove how arg from maybe_cast_result (#41000),pandas-dev/pandas
+7a4,Simon Hawkins,Mon Apr 19 15:00:40 2010 +0100,[ArrowStringArray] fix test_repeat_with_null (#41001),pandas-dev/pandas
+12c,Simon Hawkins,Mon Apr 19 15:00:20 2021 +0100,[ArrowStringArray] fix test_value_counts_na (#41002),apache/spark
+427,jbrockmendel,Mon Apr 19 06:53:57 2021 -0700,CI: suppress warnings (#41003),apache/spark
+546,jbrockmendel,Mon Apr 19 06:53:19 2021 -0700,TYP: core.computation (#41007),apache/spark
+c29,jbrockmendel,Mon Apr 19 06:51:57 2021 -0700,CLN: remove ensure_int_or_float (#41011),apache/spark
+5f1,jbrockmendel,Mon Apr 19 06:41:50 2021 -0700,REF: pass arguments to Index._foo_indexer correctly (#41024),apache/spark
+4e1,jbrockmendel,Mon Apr 19 06:38:44 2021 -0700,REF: remove Categorical._shallow_copy (#41030),pandas-dev/pandas
